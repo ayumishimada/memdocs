@@ -186,7 +186,7 @@ Applies only to co-managed devices running Windows 10/11. Intune-only devices re
    [DeviceStatus CSP - DeviceStatus/Compliance/EncryptionCompliance](/windows/client-management/mdm/devicestatus-csp)
 
   > [!NOTE]
-  > The **Encryption of data storage on a device** setting generically checks for the presence of encryption on the device, more specifically at the OS drive level. Currently, Intune supports only the encryption check with BitLocker. For a more robust encryption setting, consider using **Require BitLocker**, which leverages Windows Device Health Attestation to validate Bitlocker status at the TPM level. However, when leveraging this setting, be aware that a reboot may be required before the device will reflect as compliant.
+  > The **Encryption of data storage on a device** setting generically checks for the presence of encryption on the device, more specifically at the OS drive level. This setting can be applied only for OS installed drives. Currently, Intune supports only the encryption check with BitLocker. For a more robust encryption setting, consider using **Require BitLocker**, which leverages Windows Device Health Attestation to validate Bitlocker status at the TPM level. However, when leveraging this setting, be aware that a reboot may be required before the device will reflect as compliant.
 
 ### Device Security  
 
