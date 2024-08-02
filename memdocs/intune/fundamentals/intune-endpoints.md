@@ -324,6 +324,7 @@ Managed Windows devices using the Microsoft Store – either to acquire, install
 **Proxy configuration**
 - [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business)
 
+
 **Windows Update Agent:**
 
 For details, see the following resources:
@@ -348,6 +349,27 @@ The **Installer Url** property either shows the external download location or th
 For details, see the following resource:
 
 - [Microsoft Connected Cache content and services endpoints](/windows/deployment/do/delivery-optimization-endpoints)
+
+**Other endpoints**
+login.windows.net
+msedge.b.tlu.dl.delivery.mp.microsoft.com
+bat.bing.com
+ocsp.digicert.com
+slscr.update.microsoft.com
+fe3cr.delivery.mp.microsoft.com
+da.xboxservices.com
+slscr.update.microsoft.com
+fe3cr.delivery.mp.microsoft.com
+kv501.prod.do.dsp.mp.microsoft.com
+cp501.prod.do.dsp.mp.microsoft.com
+tlu.dl.delivery.mp.microsoft.com
+pti.store.microsoft.com
+msedge.b.tlu.dl.delivery.mp.microsoft.com
+mobile.events.data.microsoft.com
+fe3cr.delivery.mp.microsoft.com
+ocsp.digicert.com
+![image](https://github.com/user-attachments/assets/45514bec-4c7f-48d0-bd77-929748fb2c8a)
+
 
 ## Migrating device health attestation compliance policies to Microsoft Azure attestation
 
